@@ -1,6 +1,10 @@
 # Dotfile Trans
 
 ![img](./screenshot/Screenshot.png)
+![img](./screenshot/Screenshot-1.png)
+![img](./screenshot/Screenshot-2.png)
+![img](./screenshot/Screenshot-3.png)
+![img](./screenshot/Screenshot-4.png)
 
 <!-------------------------------------------------------------------------------------->
 
@@ -43,4 +47,7 @@ $ cp -r ncmpcpp ~/.config/
 $ cp -r compton ~/.config/
 $ cp -r ranger ~/.config/
 $ cp -r bspwm ~/.config/
+$ cp -r zathura ~/.config/
+$ cp -r rofi ~/.config/
 ```
+
