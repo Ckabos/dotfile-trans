@@ -1,0 +1,11 @@
+* {
+    background:			#202020;
+    background-top:		#648AFE;
+    foreground:			#574B90;
+    foreground-top:		#82B1FF;
+    border:			#263238;
+    border-selected:		#263238;
+    selected-background:    	#D37F89;
+    selected-foreground: 	#9E579D;
+
+}
