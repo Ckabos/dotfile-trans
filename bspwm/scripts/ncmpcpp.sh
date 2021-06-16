@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-urxvt -e ncmpcpp
+alacritty -e ncmpcpp

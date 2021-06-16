@@ -7,13 +7,13 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 wmname LG3D &
 
-feh --bg-fill ~/Imágenes/Wallpapers/animegirls-1616742783683-2315.jpg
-
+feh --bg-fill ~/Imágenes/Wallpapers/darling-in-the-franxx.png
 compton --config /home/efrain/.config/compton/compton.conf &
 
 pkill pa-applet 
-pa-applet &
 pkill nm-applet
+pkill cava
+pa-applet &
 nm-applet &
 
 setxkbmap es &
@@ -32,6 +32,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a URxvt desktop='^1' state=tiled follow=on
+bspc rule -a Alacritty desktop='^1' state=floating follow=on
 bspc rule -a Pavucontrol desktop='^9' state=tiled follow=on
 bspc rule -a Nitrogen desktop='^9' state=tiled follow=on
 bspc rule -a firefox desktop='^2' follow=on
@@ -41,18 +42,27 @@ bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on
 bspc rule -a "Spotify" desktop='^4'
 bspc rule -a "YouTube Music" desktop='^4'
 bspc rule -a Youtube desktop='^4'
+bspc rule -a yuna desktop='^4'
 bspc rule -a Code desktop='^5'
 bspc rule -a discord desktop='^6'
+bspc rule -a TelegramDesktop desktop='^6'
+bspc rule -a org.gabmus.giara desktop='^6' state=tiled
 bspc rule -a Wpspdf desktop='^7'
 bspc rule -a Wps desktop='^7'
 bspc rule -a Et desktop='^7'
 bspc rule -a Wpp desktop='^7'
 bspc rule -a Zathura desktop='^7' state=tiled follow=on
-bspc rule -a TelegramDesktop desktop='^6'
 bspc rule -a MEGAsync desktop='^8' follow=on state=floating
 bspc rule -a kdeconnect.app desktop='^8' follow=on
+bspc rule -a Transmission-gtk desktop='^8' follow=on state=floating
+bspc rule -a System-config-printer.py desktop='^8' follow=on state=floating
+bspc rule -a Protonvpn-gui desktop='^8' follow=on state=floating
+bspc rule -a BlueMail desktop='^8' follow=on state=floating
 bspc rule -a Alarm-clock-applet desktop='^9' state=tiled follow=on
 bspc rule -a Blueberry.py desktop='^9' follow=on
 bspc rule -a Lxappearance desktop='^9' state=tiled follow=on
 bspc rule -a Gucharmap desktop='^9' state=tiled follow=on
 bspc rule -a Qalculate-gtk desktop='^10' state=tiled follow=on
+bspc rule -a GeoGebra desktop='^10' state=fullscreen follow=on
+bspc rule -a CrossCode desktop='^10' state=fullscreen follow=on
+bspc rule -a SkullGirls desktop='^10' state=fullscreen follow=on

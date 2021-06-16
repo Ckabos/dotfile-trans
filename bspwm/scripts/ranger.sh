@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-urxvt -e ranger
+alacritty -e ranger
