@@ -1,10 +1,10 @@
 # Dotfile Trans
 
-![img](./screenshot/Screenshot.png)
-![img](./screenshot/Screenshot-1.png)
-![img](./screenshot/Screenshot-2.png)
-![img](./screenshot/Screenshot-3.png)
-![img](./screenshot/Screenshot-4.png)
+![img](./screenshot/screenshot1.png)
+![img](./screenshot/screenshot3.png)
+![img](./screenshot/screenshot3.png)
+![img](./screenshot/screenshot4.png)
+![img](./screenshot/screenshot5.png)
 
 <!-------------------------------------------------------------------------------------->
 
@@ -17,6 +17,7 @@
 - **`Sxhkd`** : Keybindings.
 - **`Nerd Fonts`** : Fonts to the customization.
 - **`URxvt`** : Terminal customization with .Xresources file.
+- **`Cava`** : Virtualizer Audio
 
 # Icon fonts
 
@@ -27,7 +28,7 @@
 # Fonts
 
 - **`Hack Nerd Fonts`**
-- **`Siji`**
+- **`unifont`**
 
 ### Installation
 
