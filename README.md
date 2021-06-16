@@ -1,7 +1,7 @@
 # Dotfile Trans
 
 ![img](./screenshot/screenshot1.png)
-![img](./screenshot/screenshot3.png)
+![img](./screenshot/screenshot2.png)
 ![img](./screenshot/screenshot3.png)
 ![img](./screenshot/screenshot4.png)
 ![img](./screenshot/screenshot5.png)
