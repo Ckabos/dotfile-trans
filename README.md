@@ -17,6 +17,7 @@
 - **`Nerd Fonts`** : Fonts to the customization.
 - **`URxvt`** : Terminal customization with .Xresources file.
 - **`Cava`** : Virtualizer Audio
+- **`Picom`** : Picom fork -> [picom-jonaburg-git](https://aur.archlinux.org/packages/picom-jonaburg-git)
 
 # Icon fonts
 
@@ -44,10 +45,13 @@ $ cp -r polybar ~/.config/
 $ cp -r dunst ~/.config/
 $ cp -r mpd ~/.config/
 $ cp -r ncmpcpp ~/.config/
-$ cp -r compton ~/.config/
+$ cp -r picom ~/.config/
 $ cp -r ranger ~/.config/
 $ cp -r bspwm ~/.config/
 $ cp -r zathura ~/.config/
 $ cp -r rofi ~/.config/
+$ cp -r alacritty ~/.config/
+$ cp -r cava ~/.config/
+$ cp -r sxhkd ~/.config/
 ```
 
