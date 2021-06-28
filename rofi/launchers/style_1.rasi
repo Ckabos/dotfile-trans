@@ -9,10 +9,10 @@
 
 configuration {
     lines:				8;
-    columns:				3;
+    columns:				1;
     font: 				"Source Code Pro 9";
     bw: 				0;
-    location: 				0;
+    location: 				1;
     padding: 				0;
     fixed-num-lines: 			true;
     show-icons: 			true;
@@ -42,9 +42,10 @@ configuration {
 
 window {
     border: 				0px;
-    border-color: 			@ac;
+    border-color: 			@background;
     border-radius: 			10px;
     padding: 				10;
+    margin:				30px;
     width: 				60%;
     height: 				60%;
 }
