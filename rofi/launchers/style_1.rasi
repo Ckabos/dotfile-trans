@@ -8,11 +8,11 @@
  */
 
 configuration {
-    lines:				8;
+    lines:				10;
     columns:				1;
-    font: 				"Source Code Pro 9";
+    font: 				"Ubuntu 10";
     bw: 				0;
-    location: 				1;
+    location: 				center;
     padding: 				0;
     fixed-num-lines: 			true;
     show-icons: 			true;
@@ -44,10 +44,10 @@ window {
     border: 				0px;
     border-color: 			@background;
     border-radius: 			10px;
-    padding: 				10;
-    margin:				30px;
-    width: 				60%;
-    height: 				60%;
+    padding: 				12px;
+    margin:				5px;
+    width: 				50%;
+    height: 				50%;
 }
 
 prompt {
