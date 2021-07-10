@@ -175,7 +175,8 @@ super + {F6,F7,F8}
 #########################
 
 {Print} 
-	gnome-screenshot -e 'mv $f ~/Imágenes/Screenshots'; notify-send 'Capture Complete'
+	mate-screenshot
+	#gnome-screenshot -e 'mv $f ~/Imágenes/Screenshots'; notify-send 'Capture Complete'
 
 #{Print}
 #	mate-screenshot
