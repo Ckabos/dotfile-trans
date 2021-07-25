@@ -16,8 +16,6 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 wmname LG3D &
 
-#feh --bg-fill ~/Imágenes/Wallpapers/Aoi-Ogata-glasses-minimalism-monochrome-mask-anime-girls-1965581-wallhere.com.jpg
-
 feh --bg-fill ~/Imágenes/Wallpapers/darling-in-the-franxx.png
 picom --config /home/efrain/.config/picom/picom.conf &
 
@@ -36,7 +34,7 @@ bspc config pointer_modifier mod1
 bspc monitor -d          
 
 bspc config border_width         1
-bspc config window_gap           5
+bspc config window_gap           8
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
@@ -49,16 +47,18 @@ bspc config presel_feedback_color "#3341CF"
 
 # Windows assignation to workspaces
 bspc rule -a URxvt desktop='^1' state=tiled follow=on
-bspc rule -a Alacritty desktop='^1' state=tiled follow=on
+bspc rule -a Alacritty desktop='^1' state=pseudo_tiled follow=on
 bspc rule -a Pavucontrol desktop='^9' state=tiled follow=on
 bspc rule -a Nitrogen desktop='^9' state=tiled follow=on
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a Opera desktop='^2'follow=on
+bspc rule -a Brave-browser desktop='^2' follow=on
 bspc rule -a qutebrowser desktop='^2' state=tiled follow=on
 bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on
 bspc rule -a Nemo desktop='^3' follow=on
 bspc rule -a "Spotify" desktop='^4'
 bspc rule -a "YouTube Music" desktop='^4'
+bspc rule -a mpv desktop='^4' follow=on
 bspc rule -a Youtube desktop='^4'
 bspc rule -a yuna desktop='^4'
 bspc rule -a qtws desktop='^4' state=fullscreen follow=on
