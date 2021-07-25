@@ -6,6 +6,13 @@ super + Return
 super + d
 	exec ~/.config/rofi/launchers/launcher.sh
 
+# rofi-emoji launcher
+super + a
+	rofi -show emoji -modi emoji
+
+# rofi windowcd
+super + v
+	rofi -show windowcd
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
